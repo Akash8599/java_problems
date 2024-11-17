@@ -6,13 +6,13 @@ public class MultipleInterfaces {
 
 
 }
-class Temp implements A, C{
+class Temp implements D, C{
     @Override
     public void show(){
-        A.super.show();
+        D.super.show();
     }
 }
- interface A{
+ interface D{
     default void show(){
         System.out.println("Interface A");
     }
