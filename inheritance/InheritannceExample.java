@@ -1,9 +1,6 @@
 package inheritance;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 
 interface A{
     public default void method(){

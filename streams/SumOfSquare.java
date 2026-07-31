@@ -11,7 +11,7 @@ public class SumOfSquare {
         int sum = list.stream()
                 .filter(a -> a%2==0)
                 .map(b -> b*b)
-                .reduce(1, Integer::max);
+                .reduce(0, Integer::sum);
         System.out.println(sum);
     }
 }

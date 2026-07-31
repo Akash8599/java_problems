@@ -1,7 +1,5 @@
 package syncrhonization;
 
-import java.util.Objects;
-
 public class PrintsNumbers implements Runnable{
 
     private static final int N = 10;

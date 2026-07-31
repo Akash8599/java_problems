@@ -8,7 +8,9 @@ public class ConvertString {
     public static void main(String[] args) {
         List<String> list = Arrays.asList("Akash", "Samayak", "Tejas");
 
-         list.stream().map(String::toUpperCase).collect(Collectors.toList()).forEach(System.out::println);
+         list.stream().map(String::toUpperCase)
+                 .collect(Collectors.toList())
+                 .forEach(System.out::println);
 
     }
 }
